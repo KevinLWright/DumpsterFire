@@ -21,6 +21,10 @@
 
 
   <style id="compiled-css" type="text/css">
+
+body {
+    background: #292828;
+}
     
 a:link{
    color: white;
@@ -80,7 +84,7 @@ h4{
   background-image: url(Images/April4.png);
 }
 .card .back {
-    background: blue;
+    background-color: rgba(255, 255, 255, .9);
     -webkit-transform: rotateY( 180deg );
     -moz-transform: rotateY( 180deg );
     -o-transform: rotateY( 180deg );
@@ -101,7 +105,13 @@ h4{
 <section class="container">
   <div class="card" onclick="flip()">
     <div class="front"></div>
-    <div class="back"><a href="Dates/April4.html" target="_blank"><h4>Alaska</br>Wyoming</br>Hawaii</h4></a></div>
+      <div class="back">
+        <a href="Dates/April4.html" target="_blank">
+          <h4>Alaska</h4>
+          <h4>Wyoming</h4>
+          <h4>Hawaii</h4>
+       </a>
+     </div>
   </div>
 </section>
 
