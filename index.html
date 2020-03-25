@@ -69,18 +69,6 @@ article,
 	width: 80vw;
 	max-width: 420px;
 }
-@media (max-width: 420px) {
-	.category {
-		font: 24px/72px "Titan One";
-		text-align: center;
-	}
-	.footer {
-		font-size: 9pt;
-	}
-}
-@media (max-width: 981px){
-  zoom: 200%;
-}
     
 .flex-container {
   display: flex;
@@ -224,7 +212,25 @@ a:link {
 a:visited {
   color:white
 }
+    
+@media (max-width: 981px) {
+.category,
+.title,
+.footer {
+	position: -webkit-sticky;
+	position: sticky;
+	height: 50px;
+    zoom: 300%
+}
 
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5em;
+  font-weight: 100;
+  color: black;
+  margin-bottom: 50px;
+}
+}
 </style>
 <body>
     
