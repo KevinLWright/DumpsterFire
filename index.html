@@ -197,14 +197,18 @@ h2{
   left: -3px;
   
 }
-
+.bot-left:before {
+  top: -3px;
+  width: 3px;
+  background: rgb(140,140,140);
+  background: linear-gradient(360deg, rgba(140,140,140,1) 0%, rgba(255,255,255,1) 100%);
+}
 .bot-left:after {
   right: -3px;
-  height: 2px;
-  background: rgb(255,255,255);
-  background: linear-gradient(90deg, rgba(255,255,255,0.5) 0%, rgba(0,0,0,0.5) 35%, rgba(255,255,255,0.5) 100%);
+  height: 3px;
+  background: rgb(140,140,140);
+  background: linear-gradient(90deg, rgba(140,140,140,1) 0%, rgba(255,255,255,1) 100%);
 }
-
 a:link {
   color: white;
   text-decoration: none;
@@ -220,7 +224,7 @@ a:visited {
 .footer {
     position: -webkit-sticky;
     position: sticky;
-	height: 50px;
+	height: 20px;
     zoom: 475%
 }
     
@@ -236,12 +240,12 @@ h2{
   font-weight: 100;
   color: black;
   margin-bottom: 50px;
-  margin-top: 100px;
+  margin-top: 200px;
 }
     
 .emptyBlocks {
 	background-color: white;
-	height: 100px;
+	height: 150px;
 	margin: 50px auto;
 }
     
@@ -251,6 +255,27 @@ h2{
   font-family: 'Montserrat', sans-serif;
   font-size: 4em;
   color: black;
+}
+    
+.flex-container2 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+    
+.flex-container3 {
+  display: flex;
+  flex-direction: row
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+    
+.flex-container3 > div {
+  background-color: DodgerBlue;
+  color: white;
+  width: 100%;
+  margin: 0px;
+  text-align: center;
 }
     
 .footer {
@@ -263,92 +288,293 @@ h2{
 	margin: 300px auto auto auto;
 }
     
+.title {
+	top: 0;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1em;
+	color: white;
+	text-shadow: 1px 1px 0 grey;
+	background-color: white;
+	margin: 0;
+    border-bottom: 3px solid white;
+}
+    
+.bot-left:before {
+  top: -3px;
+  width: 1px;
+  background: rgb(140,140,140);
+  background: linear-gradient(360deg, rgba(140,140,140,1) 0%, rgba(255,255,255,1) 100%);
+}
+.bot-left:after {
+  right: -3px;
+  height: 1px;
+  background: rgb(140,140,140);
+  background: linear-gradient(90deg, rgba(140,140,140,1) 0%, rgba(255,255,255,1) 100%);
+}
+    
 }
 </style>
 <body>
-    
-<div class="emptyBlocks flex-container" align="center">DEMOCRATIC PRIMARIES</div>
-
-<article>
-    <a href="dates/PlaceholderPage.html" target="_blank"> <h1 class="title bot-left" align="center">April 04.</h1></a>
-    <a href="https://interactives.ap.org/primary-elections-2020-04-04/?site=thenewyorker&STATE=HI&OFFICE=P" target="_blank"><h2 align="center">Hawaii<span class="icon-Hawaii"></span></h2></a>
-</article>
-
-<article>
-	<div class="category"></div>
-	<a href="dates/April7.html" target="_blank"> <h1 class="title bot-left" align="center">April 07.</h1></a>
-	<a href="https://interactives.ap.org/primary-elections-2020-04-07/?site=thenewyorker" target="_blank"><h2 align="center">Wisconsin<span class="icon-Wisconsin"></h2></a>
-</article>
-    
-<article>
-	<div class="category"></div>
-	<a href="dates/PlaceholderPage.html" target="_blank"> <h1 class="title bot-left" align="center">April 10.</h1></a>
-	<a href="https://interactives.ap.org/primary-elections-2020-04-04/?site=thenewyorker&STATE=AK&OFFICE=P" target="_blank"><h2 align="center">Alaska<span class="icon-Alaska"></h2></a>
-</article>
-    
-<article>
-	<div class="category"></div>
-	<a href="dates/PlaceholderPage.html" target="_blank"> <h1 class="title bot-left" align="center">April 17.</h1></a>
-	<a href="https://interactives.ap.org/primary-elections-2020-04-04/?site=thenewyorker&STATE=WY&OFFICE=P" target="_blank"><h2 align="center">Wyoming<span class="icon-Wyoming"></h2></a>
-</article>
-    
-<article>
-	<div class="category"></div>
-	<a href="dates/April28.html" target="_blank"><h1 class="title bot-left" align="center">April 28.</h1></a>
-	<a href="dates/PlaceholderPage.html" target="_blank"><h2 align="center">New York<span class="icon-New-York"></h2></a>
-    <a href="dates/PlaceholderPage.html" target="_blank"><h2 align="center">Pennsylvania<span class="icon-Pennsylvania"></h2></a>
-</article>
-    
-<article>
-	<div class="category"></div>
-	<a href="dates/May2.html" target="_blank"><h1 class="title bot-left" align="center">May 02.</h1></a>
-	<a href="dates/PlaceholderPage.html" target="_blank"><h2 align="center">Kansas<span class="icon-Kansas"></h2></a>
-</article>
-    
-<article>
-	<div class="category"></div>
-	<a href="dates/May12.html" target="_blank"><h1 class="title bot-left" align="center">May 12.</h1></a>
-	<a href="dates/PlaceholderPage.html" target="_blank"><h2 align="center">Nebraska<span class="icon-Nebraska"></h2></a>
-    <a href="dates/PlaceholderPage.html" target="_blank"><h2 align="center">West Virginia<span class="icon-West-Virginia"></h2></a>
-</article>
-    
-<article>
-	<div class="category"></div>
-	<a href="dates/May19.html" target="_blank"><h1 class="title bot-left" align="center">May 19.</h1></a>
-	<a href="dates/PlaceholderPage.html" target="_blank"><h2 align="center">Georgia<span class="icon-Georgia"></h2></a>
-    <a href="dates/PlaceholderPage.html" target="_blank"><h2 align="center">Oregon<span class="icon-Oregon"></h2></a>
-</article>
-    
-<article>
-	<div class="category"></div>
-	<a href="dates/June2.html" target="_blank"><h1 class="title bot-left" align="center">June 02.</h1></a>
-	<a href="dates/PlaceholderPage.html" target="_blank"><h2 align="center">Connecticut<span class="icon-Connecticut"></h2></a>
-    <a href="dates/PlaceholderPage.html" target="_blank"><h2 align="center">Delaware<span class="icon-Delaware"></h2></a>
-    <a href="dates/PlaceholderPage.html" target="_blank"><h2 align="center">District of Columbia<span class="icon-DC"></h2></a>
-    <a href="dates/PlaceholderPage.html" target="_blank"><h2 align="center">Indiana<span class="icon-Indiana"></h2></a>
-    <a href="dates/PlaceholderPage.html" target="_blank"><h2 align="center">Maryland<span class="icon-Maryland"></h2></a>
-    <a href="dates/PlaceholderPage.html" target="_blank"><h2 align="center">Montana<span class="icon-Montana"></h2></a>
-    <a href="dates/PlaceholderPage.html" target="_blank"><h2 align="center">New Jersey<span class="icon-New-Jersey"></h2></a>
-    <a href="dates/PlaceholderPage.html" target="_blank"><h2 align="center">New Mexico<span class="icon-New-Mexico"></h2></a>
-    <a href="dates/PlaceholderPage.html" target="_blank"><h2 align="center">Ohio<span class="icon-Ohio"></h2></a>
-    <a href="dates/PlaceholderPage.html" target="_blank"><h2 align="center">Rhode Island<span class="icon-Rhode-Island"></h2></a>
-    <a href="dates/PlaceholderPage.html" target="_blank"><h2 align="center">South Dakota<span class="icon-South-Dakota"></h2></a>
-</article>
-    
-<article>
-	<div class="category"></div>
-	<a href="dates/June20.html" target="_blank"><h1 class="title bot-left" align="center">June 20.</h1></a>
-	<a href="dates/PlaceholderPage.html" target="_blank"><h2 align="center">Louisiana<span class="icon-Louisiana"></h2></a>
-</article>
-    
-<article>
-	<div class="category"></div>
-	<a href="dates/June23.html" target="_blank"><h1 class="title bot-left" align="center">June 23.</h1></a>
-	<a href="dates/PlaceholderPage.html" target="_blank"><h2 align="center">Kentucky<span class="icon-Kentucky"></h2></a>
-</article>
-
-<div class="footer"></div>
-<div class="emptyBlocks flex-container" align="center">GENERAL, HERE WE COME!</div>
-
+   <div class="emptyBlocks flex-container" align="center">DEMOCRATIC PRIMARIES</div>
+   <article>
+      <a href="dates/PlaceholderPage.html" target="_blank">
+         <h1 class="title bot-left flex-container2">April 04.</h1>
+      </a>
+      <div class="flex-container3">
+         <div></div>
+         <span>
+            <a class="flex-container3" href="https://interactives.ap.org/primary-elections-2020-04-04/?site=thenewyorker&STATE=HI&OFFICE=P" target="_blank">
+               <h2 align="center">Hawaii<span class="icon-Hawaii"></span></h2>
+            </a>
+         </span>
+      </div>
+   </article>
+   <article>
+      <div class="category"></div>
+      <a href="dates/April7.html" target="_blank">
+         <h1 class="title bot-left flex-container2">April 07.</h1>
+      </a>
+      <div class="flex-container3">
+         <div></div>
+         <span>
+            <a class="flex-container3" href="https://interactives.ap.org/primary-elections-2020-04-04/?site=thenewyorker&STATE=HI&OFFICE=P" target="_blank">
+               <h2 align="center">Wisconsin<span class="icon-Wisconsin"></span></h2>
+            </a>
+         </span>
+      </div>
+   </article>
+   <article>
+      <div class="category"></div>
+      <a href="dates/PlaceholderPage.html" target="_blank">
+         <h1 class="title bot-left flex-container2">April 10.</h1>
+      </a>
+      <div class="flex-container3">
+         <div></div>
+         <span>
+         <a class="flex-container3" href="https://interactives.ap.org/primary-elections-2020-04-04/?site=thenewyorker&STATE=AK&OFFICE=P" target="_blank">
+            <h2 align="center">Alaska<span class="icon-Alaska"></h2>
+         </a>
+         </span>     
+      </div>
+   </article>
+   <article>
+      <div class="category"></div>
+      <a href="dates/PlaceholderPage.html" target="_blank">
+         <h1 class="title bot-left flex-container2">April 17.</h1>
+      </a>
+      <div class="flex-container3">
+         <div></div>
+         <span>
+         <a class="flex-container3" href="https://interactives.ap.org/primary-elections-2020-04-04/?site=thenewyorker&STATE=WY&OFFICE=P" target="_blank">
+            <h2 align="center">Wyoming<span class="icon-Wyoming"></h2>
+         </a>
+         </span>     
+      </div>
+   </article>
+   <article>
+      <div class="category"></div>
+      <a href="dates/April28.html" target="_blank">
+         <h1 class="title bot-left flex-container2">April 28.</h1>
+      </a>
+      <div class="flex-container3">
+         <div></div>
+         <span>
+         <a href="dates/PlaceholderPage.html" target="_blank">
+            <h2 align="center">New&nbspYork<span class="icon-New-York"></h2>
+         </a>
+         </span>
+      </div>
+      <div class="flex-container3">
+         <div></div>
+         <span>
+         <a href="dates/PlaceholderPage.html" target="_blank">
+            <h2 align="center">Pennsylvania<span class="icon-Pennsylvania"></h2>
+         </a>
+         </span>
+      </div>
+   </article>
+   <article>
+      <div class="category"></div>
+      <span>
+      <a href="dates/May2.html" target="_blank">
+         <h1 class="title bot-left flex-container2">May 02.</h1>
+      </a>
+      <div class="flex-container3">
+         <div></div>
+         <span>
+         <a href="dates/PlaceholderPage.html" target="_blank">
+            <h2 align="center">Kansas<span class="icon-Kansas"></h2>
+         </a>
+         </span>
+      </div>
+   </article>
+   <article>
+      <div class="category"></div>
+      <a href="dates/May12.html" target="_blank">
+         <h1 class="title bot-left flex-container2">May 12.</h1>
+      </a>
+      <div class="flex-container3">
+         <div></div>
+         <span>
+         <a href="dates/PlaceholderPage.html" target="_blank">
+            <h2 align="center">Nebraska<span class="icon-Nebraska"></h2>
+         </a>
+         </span>
+      </div>
+      <div class="flex-container3">
+         <div></div>
+         <span>
+         <a href="dates/PlaceholderPage.html" target="_blank">
+            <h2 align="center">West&nbspVirginia<span class="icon-West-Virginia"></h2>
+         </a>
+         </span>
+      </div>
+   </article>
+   <article>
+      <div class="category"></div>
+      <a href="dates/May19.html" target="_blank">
+         <h1 class="title bot-left flex-container2">May 19.</h1>
+      </a>
+      <div class="flex-container3">
+         <div></div>
+         <span>
+         <a href="dates/PlaceholderPage.html" target="_blank">
+            <h2 align="center">Georgia<span class="icon-Georgia"></h2>
+         </a>
+         </span>
+      </div>
+      <div class="flex-container3">
+         <div></div>
+         <span>
+         <a href="dates/PlaceholderPage.html" target="_blank">
+            <h2 align="center">Oregon<span class="icon-Oregon"></h2>
+         </a>
+         </span>
+      </div>
+   </article>
+   <article>
+      <div class="category"></div>
+      <a href="dates/June2.html" target="_blank">
+         <h1 class="title bot-left flex-container2">June 02.</h1>
+      </a>
+      <div class="flex-container3">
+         <div></div>
+         <span>
+         <a href="dates/PlaceholderPage.html" target="_blank">
+            <h2 align="center">Connecticut<span class="icon-Connecticut"></h2>
+         </a>
+         </span>
+      </div>
+      <div class="flex-container3">
+         <div></div>
+         <span>
+         <a href="dates/PlaceholderPage.html" target="_blank">
+            <h2 align="center">Delaware<span class="icon-Delaware"></h2>
+         </a>
+         </span>
+      </div>
+      <div class="flex-container3">
+         <div></div>
+         <span>
+         <a href="dates/PlaceholderPage.html" target="_blank">
+            <h2 align="center">Distric&nbspof&nbspColumbia<span class="icon-DC"></h2>
+         </a>
+         </span>
+      </div>
+      <div class="flex-container3">
+         <div></div>
+         <span>
+         <a href="dates/PlaceholderPage.html" target="_blank">
+            <h2 align="center">Indiana<span class="icon-Indiana"></h2>
+         </a>
+         </span>
+      </div>
+      <div class="flex-container3">
+         <div></div>
+         <span>
+         <a href="dates/PlaceholderPage.html" target="_blank">
+            <h2 align="center">Maryland<span class="icon-Maryland"></h2>
+         </a>
+         </span>
+      </div>
+      <div class="flex-container3">
+         <div></div>
+         <span>
+         <a href="dates/PlaceholderPage.html" target="_blank">
+            <h2 align="center">Montana<span class="icon-Montana"></h2>
+         </a>
+         </span>
+      </div>
+      <div class="flex-container3">
+         <div></div>
+         <span>
+         <a href="dates/PlaceholderPage.html" target="_blank">
+            <h2 align="center">New&nbspJersey<span class="icon-New-Jersey"></h2>
+         </a>
+         </span>
+      </div>
+      <div class="flex-container3">
+         <div></div>
+         <span>
+         <a href="dates/PlaceholderPage.html" target="_blank">
+            <h2 align="center">New&nbspMexico<span class="icon-New-Mexico"></h2>
+         </a>
+         </span>
+      </div>
+      <div class="flex-container3">
+         <div></div>
+         <span>
+         <a href="dates/PlaceholderPage.html" target="_blank">
+            <h2 align="center">Ohio<span class="icon-Ohio"></h2>
+         </a>
+         </span>
+      </div>
+      <div class="flex-container3">
+         <div></div>
+         <span>
+         <a href="dates/PlaceholderPage.html" target="_blank">
+            <h2 align="center">Rhode&nbspIsland<span class="icon-Rhode-Island"></h2>
+         </a>
+         </span>
+      </div>
+      <div class="flex-container3">
+         <div></div>
+         <span>
+         <a href="dates/PlaceholderPage.html" target="_blank">
+            <h2 align="center">South&nbspDakota<span class="icon-South-Dakota"></h2>
+         </a>
+         </span>
+      </div>
+   </article>
+   <article>
+      <div class="category"></div>
+      <a href="dates/June20.html" target="_blank">
+         <h1 class="title bot-left flex-container2">June 20.</h1>
+      </a>
+      <div class="flex-container3">
+         <div></div>
+         <span>
+         <a href="dates/PlaceholderPage.html" target="_blank">
+            <h2 align="center">Louisiana<span class="icon-Louisiana"></h2>
+         </a>
+         </span>
+      </div>
+   </article>
+   <article>
+      <div class="category"></div>
+      <a href="dates/June23.html" target="_blank">
+         <h1 class="title bot-left flex-container2">June 23.</h1>
+      </a>
+      <div class="flex-container3">
+         <div></div>
+         <span>
+         <a href="dates/PlaceholderPage.html" target="_blank">
+            <h2 align="center">Kentucky<span class="icon-Kentucky"></h2>
+         </a>
+         </span>
+      </div>
+   </article>
+   <div class="footer"></div>
+   <div class="emptyBlocks flex-container" align="center">GENERAL, HERE WE COME!</div>
 </body>
 </html>
